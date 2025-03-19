@@ -40,7 +40,7 @@ At this stage in the project, we have a fully working version of checkers. It is
 and all the other basic things you would want from a checkers program. Now, lets get the silly stuff out the way. Checkers is a solved game. You can play it
 from a lookup table.
 
-Now let's be honest. That's just not what we're here for.
+Now let's be honest. It may be effective, but that's not what we're here for.
 
 Neural network based AI was another alternative I looked in to. These AI can be remarkably good at player games like checkers. In my 
 [project presentation](https://docs.google.com/presentation/d/1HZwHD338rQBVY-RWUqO-Pr8NIWZQCU44g4i5naiNzSc/edit?usp=sharing), I talk about how I could have 
