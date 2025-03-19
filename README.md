@@ -42,19 +42,20 @@ from a lookup table.
 
 Now let's be honest. It may be effective, but that's not what we're here for.
 
-Neural network based AI was another alternative I looked in to. These AI can be remarkably good at player games like checkers. In my 
+Neural network based AI was another alternative I looked in to. These AI can be remarkably good at board games like checkers. In my 
 [project presentation](https://docs.google.com/presentation/d/1HZwHD338rQBVY-RWUqO-Pr8NIWZQCU44g4i5naiNzSc/edit?usp=sharing), I talk about how I could have 
 chosen to make use a deep reinforcement learning algorithm. They are both perfectly viable solutions, but two things really made my mind up on this matter. I 
 am working to a deadline for my uni project, and it just isn't where my passions lie. For the deadline, I am sure I could have made the deep reinforcement 
 learning work. However, I have a more fundamental understanding of the principles behind more conventional AI techniques - something that makes me more cofident
 in my ability to make them work to a deadline. But the real kicker is that I just truly don't enjoy working with machine learning the same way I do conventional
-AI logic. I've tried it out and it's fine, not the worst thing in the world, but I didn't become a programmer to automate the problem solving phase. It's what 
+AI logic. I've tried it out, and it's fine - not the worst thing in the world. But I didn't become a programmer to automate the problem solving phase. It's what 
 I fell in love with coding for, and I want to understand everything my code is doing and why it's so cool and what all the clever little optimisations are.
 
 With my decision narrowed down to conventional techniques I decided (as you will know if you looked at the presentation earlier) to make a monte-carlo search tree
 based algorithm. I had an interest in these algorithms from my time looking into chess AI, and was aware of their use in other board games like scrabble as well.
-The technique was fit for my purposes, and seemed like a very reasonable scope for this uni project, with plenty of room for further optimisation if I got my work
-done and fancied a fun little project for a higher grade.
+The technique was fit for my purpose (a two player perfect information game is where this technique thrives), and seemed like a very reasonable scope for this uni 
+project. There was even plenty of room for further optimisation if I got my work done and fancied a fun little project for a higher grade.
 
+### 💾 Finally Making An AI
 
 
