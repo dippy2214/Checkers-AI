@@ -34,3 +34,22 @@ about planning the whole project from the start properly.
 
 For the sake of this write up, I will skip over the making of checkers. I am working in unity, and it honestly wasn't that hard. there was a bug here and a 
 bug there, but I got them working in the end. Now, onto the AI!
+
+### 👨‍💻 The AI Awakening
+At this stage in the project, we have a fully working version of checkers. It is capable of limiting players to legal moves, moving pieces, allowing for taking
+and all the other basic things you would want from a checkers program. Now, lets get the silly stuff out the way. Checkers is a solved game. You can play it
+from a lookup table.
+
+Now let's be honest here. That's just not what we're here for.
+
+Neural network based AI was another alternative I looked in to. These AI can be remarkably good at player games like checkers. In my 
+[project presentation](https://docs.google.com/presentation/d/1HZwHD338rQBVY-RWUqO-Pr8NIWZQCU44g4i5naiNzSc/edit?usp=sharing), I talk about how I could have 
+chosen to make use a deep reinforcement learning algorithm. They are both perfectly viable solutions, but two things really made my mind up on this matter. I 
+am working to a deadline for my uni project, and it just isn't where my passions lie. For the deadline, I am sure I could have made the deep reinforcement 
+learning work. However, I have a more fundamental understanding of the principles behind more conventional AI techniques - something that makes me more cofident
+in my ability to make them work to a deadline. But the real kicker is that I just truly don't enjoy working with machine learning the same way I do conventional
+AI logic. I've tried it out and it's fine, not the worst thing in the world, but I didn't become a programmer to automate the problem solving phase. It's what 
+I'm here for and I want to understand everything my code is doing and why it's so cool and what the clever little optimisations are for.
+
+
+
