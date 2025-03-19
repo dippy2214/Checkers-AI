@@ -27,4 +27,7 @@ take the lessons I had learned, and start again.
 At this point in the project I was back to square one, but having been through this before I had a much clearer idea in my head of how I wanted to architect
 the whole program. I wanted the board to be stored separately, and have other parts of the code simply look in from the outside. I wanted the AI to be able 
 to have it's own instances of the board, which it could run its own fun little game on off in it's own world, and this wouldn't affect the UI as the UI 
-would be an outsider looking in only at the one board it cared to see (the one the main game was played on).
+would be an outsider looking in only at the one board it cared to see (the one the main game was played on). Armed with this knowledge, and enough independant
+thought to not even want a tutorial, I set to work making my new checkers program. The lesson of separating the UI from the data stuck with me after this
+project, and was something that would stick with me moving forward into many of my future projects, and I think this experience taught me a valuable lesson
+about planning the whole project from the start properly.
