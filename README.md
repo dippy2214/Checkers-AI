@@ -51,7 +51,10 @@ in my ability to make them work to a deadline. But the real kicker is that I jus
 AI logic. I've tried it out and it's fine, not the worst thing in the world, but I didn't become a programmer to automate the problem solving phase. It's what 
 I fell in love with coding for, and I want to understand everything my code is doing and why it's so cool and what all the clever little optimisations are.
 
-
+With my decision narrowed down to conventional techniques I decided (as you will know if you looked at the presentation earlier) to make a monte-carlo search tree
+based algorithm. I had an interest in these algorithms from my time looking into chess AI, and was aware of their use in other board games like scrabble as well.
+The technique was fit for my purposes, and seemed like a very reasonable scope for this uni project, with plenty of room for further optimisation if I got my work
+done and fancied a fun little project for a higher grade.
 
 
 
