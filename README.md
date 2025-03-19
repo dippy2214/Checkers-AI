@@ -20,4 +20,5 @@ So, I have a version of checkers, and I want to add an AI to it. What could the 
 game of checkers where the data and UI were so tightly integrated together that it was impossible to separate the two. Through blindly following a tutorial
 (which did a perfectly fine job of showing how to make a game of checkers) without considering my own use case, I had created something which actually
 didn't help me at all. I tried to think about ways around this, but for an AI like mine being able to simulate moves and games without changing UI elements
-was absolutely essential. There was only one thing for it. I had to take the lessons I had learned, and start again.
+was absolutely essential, and there was no avoiding that fact. After a while I was forced to accept that there was only one thing left to do. I had to 
+take the lessons I had learned, and start again.
