@@ -22,3 +22,9 @@ game of checkers where the data and UI were so tightly integrated together that 
 didn't help me at all. I tried to think about ways around this, but for an AI like mine being able to simulate moves and games without changing UI elements
 was absolutely essential, and there was no avoiding that fact. After a while I was forced to accept that there was only one thing left to do. I had to 
 take the lessons I had learned, and start again.
+
+### ♻ Start At The Start, With A Plan
+At this point in the project I was back to square one, but having been through this before I had a much clearer idea in my head of how I wanted to architect
+the whole program. I wanted the board to be stored separately, and have other parts of the code simply look in from the outside. I wanted the AI to be able 
+to have it's own instances of the board, which it could run its own fun little game on off in it's own world, and this wouldn't affect the UI as the UI 
+would be an outsider looking in only at the one board it cared to see (the one the main game was played on).
