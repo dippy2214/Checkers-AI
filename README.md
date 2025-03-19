@@ -31,3 +31,6 @@ would be an outsider looking in only at the one board it cared to see (the one t
 thought to not even want a tutorial, I set to work making my new checkers program. The lesson of separating the UI from the data stuck with me after this
 project, and was something that would stick with me moving forward into many of my future projects, and I think this experience taught me a valuable lesson
 about planning the whole project from the start properly.
+
+For the sake of this write up, I will skip over the making of checkers. I am working in unity, and it honestly wasn't that hard. there was a bug here and a 
+bug there, but I got them working in the end. Now, onto the AI!
