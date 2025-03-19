@@ -49,7 +49,7 @@ am working to a deadline for my uni project, and it just isn't where my passions
 learning work. However, I have a more fundamental understanding of the principles behind more conventional AI techniques - something that makes me more cofident
 in my ability to make them work to a deadline. But the real kicker is that I just truly don't enjoy working with machine learning the same way I do conventional
 AI logic. I've tried it out and it's fine, not the worst thing in the world, but I didn't become a programmer to automate the problem solving phase. It's what 
-I fell in love with coding for, and I want to understand everything my code is doing and why it's so cool and what the clever little optimisations are for.
+I fell in love with coding for, and I want to understand everything my code is doing and why it's so cool and what all the clever little optimisations are.
 
 
 
