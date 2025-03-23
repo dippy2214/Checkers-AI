@@ -59,5 +59,6 @@ project. There was even plenty of room for further optimisation if I got my work
 
 ### 💾 Finally Making An AI
 This write up has dragged on a bit, but as I learned from this project when you start with nothing there is actually quite a lot of thinking to do before you make
-an AI.
+an AI. However, at this stage, with the plans completed, it was time to make the program. The monte carlo search tree can be broken down into 4 phases: selection,
+expansion, simulation and backpropegation.
 
