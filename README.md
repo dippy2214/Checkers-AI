@@ -60,5 +60,14 @@ project. There was even plenty of room for further optimisation if I got my work
 ### 💾 Finally Making An AI
 This write up has dragged on a bit, but as I learned from this project when you start with nothing there is actually quite a lot of thinking to do before you make
 an AI. However, at this stage, with the plans completed, it was time to make the program. The monte carlo search tree can be broken down into 4 phases: selection,
-expansion, simulation and backpropegation.
+expansion, simulation and backpropegation. My initial approach to this project was to make each phase as simple as possible, and adding optimisations later on to
+measure improvement and gain and understanding of how to tune to skill level of the AI.
+
+#### Selection
+my selection stage was intially set up to be a random choice of path down to a leaf node of the tree. At each node, I simply selected a random child to traverse to
+from the available children. This inital approach, however, does create a bug where because the program selects only one path down the tree. If it always traverses
+to a leaf, it wont select a new move that hasn't been played yet from a node that already has one possible option explored. However, at this early stage in 
+development I unfortunately did not catch this issue, so be aware that it is present for now.
+
+
 
