@@ -91,7 +91,7 @@ work the simple version of the AI was completed and put into the unity project.
 ### 📈 Upgrading My Boy
 Now that the basic version of the AI was made, I had some time remaining before this project was to be handed in. I wanted to look a bit deeper into upgrading my
 AI and making him a bit better at checkers. Due to it's simple nature (and that pesky bug in the selection phase), it is actually quite terrible at the game I'm
-asking it to play. After watching the AI play, I realised it was at it's worst in the endgames and when captures were available on the board. Since I had no idea
+asking it to play. After watching the AI play, I realised it was at its worst in the endgames and when captures were available on the board. Since I had no idea
 about the bug in selection, my initial idea was to add a caviat to the simulation phase. The idea was to make the AI always favour captures when available to it,
 on the basis that generally speaking this would more often than not be a better move.
 
@@ -99,3 +99,5 @@ This change didn't work as I expected. Likely because of the bug in selection, t
 in its moves. However, I found that moving this change to the expansion phase did cause a positive impact. Little did I know, this was because I was not expanding
 to the right moves because of the bug in selection, but this proved to be a valuable piece of evidence that let me work out what was happening. 
 
+The last change to the project, which actually happened after the hand in date of the project while I was working on it in my own time, was finally finding and
+fixing that bug in selection. At long last, it was finally spotted and solved.
