@@ -35,7 +35,7 @@ about planning the whole project from the start properly.
 For the sake of this write up, I will skip over the making of checkers. I am working in unity, and it honestly wasn't that hard. there was a bug here and a 
 bug there, but I got them working in the end. Now, onto the AI!
 
-### 👨‍💻 The AI Revolution
+### 👾 The AI Revolution
 At this stage in the project, we have a fully working version of checkers. It is capable of limiting players to legal moves, moving pieces, allowing for taking
 and all the other basic things you would want from a checkers program. Now, lets get the silly stuff out the way. Checkers is a solved game. You can play it
 from a lookup table.
@@ -65,10 +65,10 @@ measure improvement and gain and understanding of how to tune to skill level of 
 
 #### 🤔 Selection
 My selection stage was intially set up to be a random choice of path down to a leaf node of the tree. At each node, I simply selected a random child to traverse to
-from the available children. This inital approach, however, does create a bug where because the program selects only one path down the tree. If it always traverses
-to a leaf, it wont select a new move that hasn't been played yet from a node that already has one possible option explored. However, at this early stage in 
-development I unfortunately did not catch this issue, so be aware that it is present for now. Fundamentally selection should stop at a node which is not fully 
-expanded, rather than a leaf node.
+from the available children. This inital approach, however, does create a bug where because the program selects only one path down the tree. The program always 
+traverses to a leaf, and therefore it wont select a new move that hasn't been played yet from a node that already has one possible option explored. However, at this 
+early stage in development I unfortunately did not catch this issue, so be aware that it is present for now. Fundamentally selection should stop at a node which 
+is not fully expanded, rather than a leaf node.
 
 #### 🧩 Expansion
 The initial expansion algorithm also worked through random values, although this time there is no fundamental logical issue with that. We pick a random legal move, 
@@ -79,4 +79,7 @@ track of what paths have been fully explored already.
 My simulation step was also designed to be as simple as I could imagine. The purposes of simulation is to create a score that can be used in backpropegation to 
 add or take from the potential value of the move our AI is considering playing. For this purposes, the AI would simulate a full game all the way to an end state
 through purely random moves (you may be seeing a pattern in my interpretation of simplicity here).
+
+#### ♻ Backpropegation
+backpropegation is the process of moving back up the 
 
