@@ -80,6 +80,6 @@ My simulation step was also designed to be as simple as I could imagine. The pur
 add or take from the potential value of the move our AI is considering playing. For this purposes, the AI would simulate a full game all the way to an end state
 through purely random moves (you may be seeing a pattern in my interpretation of simplicity here).
 
-#### ♻ Backpropegation
+#### 🔙 Backpropegation
 backpropegation is the process of moving back up the 
 
