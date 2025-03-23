@@ -81,5 +81,6 @@ add or take from the potential value of the move our AI is considering playing. 
 through purely random moves (you may be seeing a pattern in my interpretation of simplicity here).
 
 #### 🔙 Backpropegation
-backpropegation is the process of moving back up the 
+Backpropegation is the process of moving back up the tree and adjusting the scores of all the nodes up to the root, keeping track of the culmulative score of all
+the games simulated from each point.
 
