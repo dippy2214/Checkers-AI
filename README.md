@@ -82,5 +82,5 @@ through purely random moves (you may be seeing a pattern in my interpretation of
 
 #### 🔙 Backpropegation
 Backpropegation is the process of moving back up the tree and adjusting the scores of all the nodes up to the root, keeping track of the culmulative score of all
-the games simulated from each point.
+the games simulated from each point. For my simple implementation, I gave a score of 1 for a win, 0 for a draw and -1 for a loss
 
