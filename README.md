@@ -64,10 +64,13 @@ expansion, simulation and backpropegation. My initial approach to this project w
 measure improvement and gain and understanding of how to tune to skill level of the AI.
 
 #### 🤔 Selection
-my selection stage was intially set up to be a random choice of path down to a leaf node of the tree. At each node, I simply selected a random child to traverse to
+My selection stage was intially set up to be a random choice of path down to a leaf node of the tree. At each node, I simply selected a random child to traverse to
 from the available children. This inital approach, however, does create a bug where because the program selects only one path down the tree. If it always traverses
 to a leaf, it wont select a new move that hasn't been played yet from a node that already has one possible option explored. However, at this early stage in 
-development I unfortunately did not catch this issue, so be aware that it is present for now.
+development I unfortunately did not catch this issue, so be aware that it is present for now. Fundamentally selection should stop at a node which is not fully 
+expanded, rather than a leaf node.
 
-
+#### 🧩 Expansion
+The initial expansion algorithm also worked through random values, although this time there is no fundamental logical issue with that. We pick a random legal move, 
+and expand our move tree in the AI to include it. This move tree works to store the moves the AI is considering playing
 
