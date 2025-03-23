@@ -4,6 +4,9 @@ This is a project is a monte-carlo search tree based checkers AI made for my CMP
 have always been interested in is making a chess engine which is capable of beating me at chess (I maintain a solid 1800+ rating on chess.com), and
 this program makes use of a lot of core principles and logic which I could apply to chess if I chose.
 
+Note: if you want to try this project for yourself, it will only run correctly in an aspect ratio of 867x355. My UI design is flawless and I will accept
+no criticism.
+
 ## The Development Process 🛠 
 
 ### 🐣 Start At The Start
