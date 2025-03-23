@@ -82,5 +82,14 @@ through purely random moves (you may be seeing a pattern in my interpretation of
 
 #### 🔙 Backpropegation
 Backpropegation is the process of moving back up the tree and adjusting the scores of all the nodes up to the root, keeping track of the culmulative score of all
-the games simulated from each point. For my simple implementation, I gave a score of 1 for a win, 0 for a draw and -1 for a loss
+the games simulated from each point. For my simple implementation, I gave a score of 1 for a win, 0 for a draw and -1 for a loss.
+
+There were some bugs with the initial implementation of these (a fun one was simulating games on the main board due to confusion about how C# handles passing by 
+value vs by reference, causing the board to immediate jump to a finished state where the AI decided the winner of the game after the first move), but after some
+work the simple version of the AI was completed and put into the unity project.
+
+### 📈 Upgrading My Boy
+Now that the basic version of the AI was made, I had some time remaining before this project was to be handed in. I wanted to look a bit deeper into upgrading my
+AI and making him a bit better at checkers. Due to it's simple nature (and that pesky bug in the selection phase), it is actually quite terrible at the game I'm
+asking it to play. 
 
