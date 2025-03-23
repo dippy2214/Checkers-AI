@@ -76,5 +76,7 @@ and expand our move tree in the AI to include it. This move tree works to store 
 track of what paths have been fully explored already.
 
 #### 👨‍💻 Simluation
-
+My simulation step was also designed to be as simple as I could imagine. The purposes of simulation is to create a score that can be used in backpropegation to 
+add or take from the potential value of the move our AI is considering playing. For this purposes, the AI would simulate a full game all the way to an end state
+through purely random moves (you may be seeing a pattern in my interpretation of simplicity here).
 
