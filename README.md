@@ -110,3 +110,5 @@ it offered me to explore existing interests, and partly because I genuinely enjo
 a lot more ideas I wish to explore at the time of this write up. I am interested in changing my scoring system to be based off how many pieces are remaining on 
 each side as a way to account for how dominant a specific win is, and to add more features in the simulation phase to weight towards good moves (eg rather than
 always playing a capture, just weight more heavily towards it and keep a chance of not playing it).
+
+All in all I had a great time working on this project and learned about C# language features, AI algorithms and good debugging practices.
