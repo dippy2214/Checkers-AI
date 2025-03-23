@@ -77,7 +77,7 @@ public class AINode
 
     public AINode Select()
     {
-        if (children.Count == 0 || legalMoves.Count == 0)
+        if (children.Count == 0 || legalMoves.Count == 0 || children.Count < legalMoves.Count)
         {
             return this;
         }
