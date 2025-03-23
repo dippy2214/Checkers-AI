@@ -63,7 +63,7 @@ an AI. However, at this stage, with the plans completed, it was time to make the
 expansion, simulation and backpropegation. My initial approach to this project was to make each phase as simple as possible, and adding optimisations later on to
 measure improvement and gain and understanding of how to tune to skill level of the AI.
 
-#### Selection
+#### 🤔 Selection
 my selection stage was intially set up to be a random choice of path down to a leaf node of the tree. At each node, I simply selected a random child to traverse to
 from the available children. This inital approach, however, does create a bug where because the program selects only one path down the tree. If it always traverses
 to a leaf, it wont select a new move that hasn't been played yet from a node that already has one possible option explored. However, at this early stage in 
