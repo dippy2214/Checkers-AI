@@ -75,3 +75,6 @@ The initial expansion algorithm also worked through random values, although this
 and expand our move tree in the AI to include it. This move tree works to store the calculations and scores of the moves the AI is considering playing, and to keep 
 track of what paths have been fully explored already.
 
+#### 👨‍💻 Simluation
+
+
