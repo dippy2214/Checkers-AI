@@ -101,3 +101,12 @@ to the right moves because of the bug in selection, but this proved to be a valu
 
 The last change to the project, which actually happened after the hand in date of the project while I was working on it in my own time, was finally finding and
 fixing that bug in selection. At long last, it was finally spotted and solved.
+
+### 🏁 Reflections And Takeaways
+My number one takeaway from this project was debugging. It is *ABSOLUTELY ESSENTIAL* to not allow any parts of complex programs like this to act as a black box 
+where I don't know whats happening. That selection bug could have been spotted far earlier if I had created strong debugging tools for myself and looked at 
+exactly what the algorithm was doing. Furthermore, I realised this was actually one of my favourite modules up to this point in my course. Partly for the freedom 
+it offered me to explore existing interests, and partly because I genuinely enjoyed the problem solving process creating an AI like this offered. I actually had
+a lot more ideas I wish to explore at the time of this write up. I am interested in changing my scoring system to be based off how many pieces are remaining on 
+each side as a way to account for how dominant a specific win is, and to add more features in the simulation phase to weight towards good moves (eg rather than
+always playing a capture, just weight more heavily towards it and keep a chance of not playing it).
