@@ -95,3 +95,7 @@ asking it to play. After watching the AI play, I realised it was at it's worst i
 about the bug in selection, my initial idea was to add a caviat to the simulation phase. The idea was to make the AI always favour captures when available to it,
 on the basis that generally speaking this would more often than not be a better move.
 
+This change didn't work as I expected. Likely because of the bug in selection, the AI still sucked at everything and there was no noticeable improvement or change
+in its moves. However, I found that moving this change to the expansion phase did cause a positive impact. Little did I know, this was because I was not expanding
+to the right moves because of the bug in selection, but this proved to be a valuable piece of evidence that let me work out what was happening. 
+
